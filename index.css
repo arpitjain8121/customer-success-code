@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+  font-family: "rsuite-icon-font";
+  src: local("rsuite-icon-font"),
+    url("./fonts/rsuite-icon-font.ttf") format("truetype");
+}
+
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 100%;
+}
+
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
