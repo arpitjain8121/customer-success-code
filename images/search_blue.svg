@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_27_Icon_search" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="_Icon_Сolor" d="M17 18a.994.994 0 0 1-.707-.293l-3.4-3.395A7.91 7.91 0 0 1 8 16a8 8 0 1 1 8-8 7.909 7.909 0 0 1-1.688 4.9l3.395 3.4A1 1 0 0 1 17 18zM8 2a6 6 0 1 0 6 6 6.007 6.007 0 0 0-6-6z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#2917bf}
+        </style>
+    </defs>
+    <g id="Group_140" transform="translate(3 3)">
+        <path id="_Icon_Сolor-2" d="M17 18a.994.994 0 0 1-.707-.293l-3.4-3.395A7.91 7.91 0 0 1 8 16a8 8 0 1 1 8-8 7.909 7.909 0 0 1-1.688 4.9l3.395 3.4A1 1 0 0 1 17 18zM8 2a6 6 0 1 0 6 6 6.007 6.007 0 0 0-6-6z" class="cls-1"/>
+    </g>
+</svg>

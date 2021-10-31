@@ -1,0 +1,36 @@
+.modal-container {
+  z-index: 999;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background: white;
+  color: black;
+  width: 500px;
+  max-height: 500px;
+  padding: 14px 0 15px;
+}
+
+.modal-btn.nexxo-btn {
+  font-weight: 400;
+  padding: 8px 16px;
+}
+.btn1 {
+  color: #2917bf;
+}
+.btn2 {
+  background-color: #2917bf;
+}
+.btn3 {
+  background-color: #de350b;
+}

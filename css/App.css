@@ -1,0 +1,111 @@
+.main_container {
+  background: linear-gradient(276deg, #4535cd, #2917bf);
+  width: 100%;
+  padding: 20px 50px 20px;
+}
+
+.img_logo {
+  width: 100%;
+  max-width: 30%;
+}
+
+.header_phoneNumber {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: right;
+}
+.header_timeDetails {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: right;
+  margin-bottom: 0;
+}
+
+ul.footer_List li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+ul.footer_List li a {
+  text-decoration: none;
+  color: #42526e;
+  font-weight: 600;
+}
+
+.footer__Container {
+  bottom: 0;
+}
+
+.footerImg {
+  width: 100%;
+  max-width: 60%;
+}
+
+.footer_List {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.accountChange_btn {
+  background: transparent;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.accountChange_btn:focus {
+  border: none;
+  outline: none;
+}
+
+.mt-6 {
+  margin-top: 2rem;
+}
+
+.mb-6 {
+  margin-bottom: 2rem;
+}
+
+.inputDesign {
+  height: 40px;
+  margin: 4px 0 0;
+  border: solid 1.5px #cdd5e1;
+  color: #232c3c;
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .img_logo {
+    max-width: 30%;
+  }
+  .forgot-pswd {
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+  .header_phoneNumber {
+    font-size: 1.2rem;
+  }
+
+  .img_logo {
+    max-width: 40%;
+  }
+  .footerImg {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img_logo {
+    max-width: 100%;
+  }
+  .footerImg {
+    max-width: 100%;
+  }
+}
