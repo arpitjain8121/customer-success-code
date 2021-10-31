@@ -1,0 +1,42 @@
+.search-selector {
+  font-size: 14px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.search-selector .search__control {
+  border: solid 1.5px #cdd5e1;
+  height: 40px;
+  min-height: 40px;
+  border-radius: 3px;
+  box-shadow: none;
+}
+
+.search-selector .search__placeholder {
+  opacity: 0.5;
+}
+
+.search-selector:focus,
+.search-selector .search__control:focus {
+  box-shadow: none;
+  border-width: 1.5px;
+  border-color: #4535cd;
+  outline: none;
+}
+
+.search-selector .search__control--is-focused {
+  border-width: 1.5px;
+  border-color: #4535cd;
+}
+
+.search-selector:hover,
+.search-selector .search__control--is-focused.search__control:hover {
+  box-shadow: none;
+  border-width: 1.5px;
+  border-color: #4535cd;
+  outline: none;
+}
+
+.search-selector .search__menu {
+  z-index: 10;
+}
